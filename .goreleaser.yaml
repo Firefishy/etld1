@@ -1,0 +1,11 @@
+version: 2
+project_name: etld1
+builds:
+  - env: [CGO_ENABLED=0]
+    goos:
+      - linux
+      - windows
+      - darwin
+    goarch:
+      - amd64
+      - arm64
